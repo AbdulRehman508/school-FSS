@@ -1,0 +1,87 @@
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .in{
+    background-color: lightgray;
+    border: none;
+  }
+  ul.horizontal-fix li a {
+    padding: .84rem 2.14rem;
+    }
+  .title{
+    padding: 4% 6%;
+    font-size: x-large;
+    color: blueviolet;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+  .nameField{
+    margin-left: 6%;
+    width: 40%;
+    height: 36px;
+    text-indent: 5%;
+    border: none;
+  }
+  .nameField1{
+    margin-top: 2%;
+    margin-left: 6%;
+    width: 40%;
+    height: 36px;
+    text-indent: 5%;
+    border: none;
+  }
+  .nameField2{
+    margin-top: 2%;
+    width: 811px;
+    text-indent: 18px;
+    margin-left: 6%;
+    height: 36px;
+    border: none;
+  }
+.closeButton{
+  margin-left: 20%;
+  margin-top: 10%;
+  border: none;
+  background-color: red;
+  padding: 1px 10px;
+  color: white;
+}
+.submitButton{
+    background-color: rgb(63, 81, 181);
+    width: 10%;
+    padding: 6px;
+    border: none;
+    color: white;
+    margin-left: 82%;
+    margin-bottom: 2%;
+}
+.addButton{
+  margin: 10px 5px;
+  width: max-content;
+  border: none;
+  background-color: lightgoldenrodyellow;
+  padding: 5px 9px;
+}
+::placeholder{
+    color: blueviolet;
+    opacity: 0.8;
+  }
